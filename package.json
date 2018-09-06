@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "IP=0.0.0.0 PORT=1234 mocha --timeout 5000 tests/*_test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jim Garrett",
   "license": "ISC",
