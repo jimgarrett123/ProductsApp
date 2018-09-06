@@ -1,13 +1,10 @@
 {
-  "name": "productsapp",
+  "name": "productsappjim",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "scripts": {
-    "start": "node server.js",
+    "start": "node app.js",
     "test": "IP=0.0.0.0 PORT=1234 mocha --timeout 5000 tests/*_test.js"
   },
   "author": "Jim Garrett",
