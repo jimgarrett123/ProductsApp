@@ -1,7 +1,7 @@
 var mongodb = require('mongodb');
 var Schema = mongodb.Schema;
 
-var ProductSchema = new Schema({
+var ProductSchema = Schema({
     name: String, 
     price: Number
 });
